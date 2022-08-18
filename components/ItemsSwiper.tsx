@@ -7,13 +7,22 @@ import "swiper/css/navigation";
 
 // import product data
 import { productItems } from '../utils/data';
-import { FC } from 'react';
+import { FC, useEffect } from 'react';
 
 // import product card
 import ProductCard from './ProductCard';
 
+import axios from 'axios';
+
+import { productsState } from '../pages/index';
+import { useRecoilValue } from 'recoil'
+
+import { useUser, login, logout } from "../lib/auth";
 
 const ItemsSwiper: FC = () => {
+  const products = useRecoilValue(productsState)
+  const user = useUser();
+  console.log(user)
   return (
     <Swiper
       slidesPerView={3}

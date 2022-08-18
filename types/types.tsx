@@ -8,7 +8,7 @@ export interface Product {
   description: string
   price: number
   colors: {
-    imgData: StaticImageData, 
+    imgData: string, 
     colorHex: string, 
     colorName: string
   }[]
@@ -16,4 +16,16 @@ export interface Product {
 
 export interface ProductProps {
   item: Product;
+}
+
+export interface Restaurant {
+  name: string
+  description: string
+  created_at: any
+  updated_at: any
+  published_at: any
+}
+
+export interface RestaurantJsonResponse {
+  data: Restaurant[]
 }
