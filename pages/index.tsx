@@ -22,6 +22,8 @@ import { createClient } from 'microcms-js-sdk';
 import Navbar2 from '../components/Navbar2';
 
 import { atom, useRecoilState } from 'recoil';
+import LineUp from '../components/LineUp';
+import Hero from '../components/Hero';
 
 
 
@@ -70,6 +72,7 @@ const Home = ( props : Product[]) => {
       {/* <h1>{contents[0].body}</h1> */}
 
       <Navbar2 />
+      <Hero />
       {/* <CaptionCarousel /> */}
       {/* <Navbar2 /> */}
       {/* <ItemsSwiper /> */}
@@ -77,6 +80,7 @@ const Home = ( props : Product[]) => {
       <Sample2 />
       <LikeButton isLiked={isLiked} /> */}
       {/* <AnimatedNews /> */}
+      <LineUp />
     </>
   )
 }
