@@ -24,6 +24,7 @@ import Navbar2 from '../components/Navbar2';
 import { atom, useRecoilState } from 'recoil';
 import LineUp from '../components/LineUp';
 import Hero from '../components/Hero';
+import CarouselSection from '../components/CarouselSection';
 
 
 
@@ -72,8 +73,9 @@ const Home = ( props : Product[]) => {
       {/* <h1>{contents[0].body}</h1> */}
 
       <Navbar2 />
-      <Hero />
-      {/* <CaptionCarousel /> */}
+      {/* <Hero /> */}
+      {/* <CarouselSection /> */}
+      <CaptionCarousel />
       {/* <Navbar2 /> */}
       {/* <ItemsSwiper /> */}
       {/* <Sample />
