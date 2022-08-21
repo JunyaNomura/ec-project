@@ -9,6 +9,11 @@ const productpage = () => {
         <div className="md:flex-shrink-0">
           <img className="rounded-lg md:w-56" src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=448&q=80" width="448" height="299" alt="Woman paying for a purchase" />
         </div>
+        <div className="grid grid-cols-3 gap-4">
+          <img className="rounded-lg mt-4 md:w-56" src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=448&q=80" width="448" height="299" alt="Woman paying for a purchase" />
+          <img className="rounded-lg mt-4 md:w-56" src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=448&q=80" width="448" height="299" alt="Woman paying for a purchase" />
+          <img className="rounded-lg md:w-56" src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=448&q=80" width="448" height="299" alt="Woman paying for a purchase" />
+        </div>
         <div className="mt-4 md:mt-0 md:ml-6">
           <p className="uppercase tracking-wide text-sm text-indigo-600 font-bold">Lip</p>
           <p className="block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline">

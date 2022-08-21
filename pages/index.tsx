@@ -25,6 +25,8 @@ import { atom, useRecoilState } from 'recoil';
 import LineUp from '../components/LineUp';
 import Hero from '../components/Hero';
 import CarouselSection from '../components/CarouselSection';
+import Res from '../components/Res';
+import Footer from '../components/Footer';
 
 
 
@@ -61,7 +63,7 @@ const Home = ( props : Product[]) => {
 
   return (
     <>
-      <div>
+      {/* <div>
         {user !== null ? (
           <h2>ログインしている</h2>
         ) : (
@@ -69,20 +71,21 @@ const Home = ( props : Product[]) => {
         )}
         <button onClick={handleLogin}>ログイン</button>
         <button onClick={handleLogout}>ログアウト</button>
-      </div>
+      </div> */}
       {/* <h1>{contents[0].body}</h1> */}
-
-      <Navbar2 />
+      {/* <Res /> */}
+      {/* <Navbar2 /> */}
       {/* <Hero /> */}
       {/* <CarouselSection /> */}
-      <CaptionCarousel />
+      {/* <CaptionCarousel /> */}
       {/* <Navbar2 /> */}
       {/* <ItemsSwiper /> */}
       {/* <Sample />
       <Sample2 />
       <LikeButton isLiked={isLiked} /> */}
       {/* <AnimatedNews /> */}
-      <LineUp />
+      {/* <LineUp /> */}
+      <Footer />
     </>
   )
 }
