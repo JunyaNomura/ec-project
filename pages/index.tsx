@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 
 import CaptionCarousel from '../components/CaptionCarousel';
-import Navbar from '../components/Navbar';
+import Navbar from '../components/Navbar3';
 import ItemsSwiper from '../components/ItemsSwiper';
 import LikeButton from '../components/LikeButton';
 import AnimatedNews from '../components/AnimatedNews';
